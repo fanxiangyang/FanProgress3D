@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "FanProgress3D"
   s.version      = "0.0.1"
-  s.summary      = "A short description of FanProgress3D."
+  s.summary      = "FanProgress3D,you can waiting for annotion."
 
   s.description  = <<-DESC
                    A longer description of FanProgress3D in Markdown format.
@@ -65,10 +65,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+  s.ios.deployment_target = "5.0"
   # s.osx.deployment_target = "10.7"
 
 
@@ -106,6 +106,7 @@ Pod::Spec.new do |s|
 
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
+  s.resources = "FanImage/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
 
